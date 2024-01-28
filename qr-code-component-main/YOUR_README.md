@@ -40,6 +40,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - To import Google fonts, write '@import' url('https://fonts.googleapis.com/....)' at top of css file
 
+3. Setting width to 100% means  that the element will take up 100% of the width of its containing element. This allows the element to expand or contract based on the size of its container.
+Example: 
+.card img {
+    width: 100%;
+}
 ### Continued development
 
 
