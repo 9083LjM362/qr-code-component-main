@@ -35,8 +35,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 ### What I learned
+- To connect my 'styles.css' to 'index.tml', replace <style> tag with this <link> tag within the <head> element
+<link rel="stylesheet" type="text/css" href="styles.css">
 
-
+- To import Google fonts, write '@import' url('https://fonts.googleapis.com/....)' at top of css file
 
 ### Continued development
 
