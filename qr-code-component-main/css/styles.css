@@ -19,6 +19,13 @@ body {
     padding: 17px;
     border-radius: 17px;
     text-align: center;
+    overflow: hidden; /* Prevent content from overflowing */
+}
+.card img {
+    width: 100%;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+    height: auto; /* Maintain aspect ratio for the image */
+    display: block; /* Remove extra space below inline images */
 }
 h2 {
     padding: 1rem;
@@ -30,13 +37,8 @@ p {
     font-size: 15px;
     white-space: pre-line;
 }
-
-.card img {
-    width: 100%;
-    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
-}
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
