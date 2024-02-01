@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* TODO: Research on box shadow effect */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@ body {
     align-items: center;
 }
 .container {
-    max-width: 360px;
+    max-width: 350px;
     margin: 0 auto;
 }
 .card {
@@ -30,12 +32,15 @@ body {
 }
 h2 {
     /* padding: 1rem; */
-    padding-top: 1rem;
+    padding-top: 1.2rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
     color: hsl(218, 44%, 22%);
+    overflow: hidden; /* Prevent content from overflowing */
 }
 p {
     color: hsl(220, 15%, 55%);
-    padding-bottom: 1rem;
+    padding-bottom: 0.9rem;
     font-size: 15px;
     white-space: pre-line;
 }
