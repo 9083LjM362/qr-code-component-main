@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 .container {
-    max-width: 350px;
+    max-width: 22rem;
     margin: 0 auto;
 }
 .card {
@@ -32,11 +32,11 @@ body {
 }
 h2 {
     /* padding: 1rem; */
-    padding-top: 1.2rem;
-    padding-left: 0.1rem;
-    padding-right: 0.1rem;
+    padding-top: 1.3rem;
+    font-size: 1.4rem;
     color: hsl(218, 44%, 22%);
     overflow: hidden; /* Prevent content from overflowing */
+    white-space: pre-line;
 }
 p {
     color: hsl(220, 15%, 55%);
