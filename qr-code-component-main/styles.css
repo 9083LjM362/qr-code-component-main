@@ -20,6 +20,7 @@ body {
     border-radius: 17px;
     text-align: center;
     overflow: hidden; /* Prevent content from overflowing */
+    margin: 0 1em; /* Add margin to create space around the card */
 }
 .card img {
     width: 100%;
@@ -28,12 +29,13 @@ body {
     display: block; /* Remove extra space below inline images */
 }
 h2 {
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding-top: 1rem;
     color: hsl(218, 44%, 22%);
 }
 p {
     color: hsl(220, 15%, 55%);
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 15px;
     white-space: pre-line;
 }
